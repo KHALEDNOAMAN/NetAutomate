@@ -1,0 +1,10 @@
+netmiko
+napalm
+paramiko
+jinja2
+pyyaml
+rich
+click
+textfsm
+nornir
+nornir-netmiko
