@@ -1,0 +1,4 @@
+ip access-list extended {{ acl_name }}
+{% for rule in rules %}
+ {{ rule }}
+{% endfor %}
