@@ -1,0 +1,12 @@
+interface {{ interface_name }}
+ description {{ description }}
+{% if ip_address %}
+ ip address {{ ip_address }} {{ subnet_mask }}
+{% else %}
+ no ip address
+{% endif %}
+{% if enabled %}
+ no shutdown
+{% else %}
+ shutdown
+{% endif %}
