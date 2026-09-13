@@ -54,3 +54,13 @@ netautomate backup run --all
 
 ## License
 MIT License
+
+
+## How It Works
+Uses Paramiko/Netmiko for SSH, NAPALM for multi-vendor, Jinja2 templates for config generation
+
+## Project Structure
+- `backend/` (app/, routers/, services/)
+- `frontend/` (src/)
+- `templates/`
+- `docker/`
