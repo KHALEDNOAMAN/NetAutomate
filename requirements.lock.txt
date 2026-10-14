@@ -1,0 +1,140 @@
+# Generated, do not hand edit. Regenerate with:
+#   sed -E 's/[=<>!~].*//' requirements.txt | grep -E '^[A-Za-z]' > u.txt
+#   uv pip compile --python-version 3.11 -o requirements.lock.txt u.txt
+#   pip-audit -r requirements.lock.txt
+annotated-types==0.8.0
+    # via pydantic
+bcrypt==5.0.0
+    # via paramiko
+certifi==2026.7.22
+    # via requests
+cffi==2.1.1
+    # via
+    #   cryptography
+    #   pynacl
+charset-normalizer==3.5.2
+    # via requests
+click==8.5.0
+    # via -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+cryptography==50.0.2
+    # via paramiko
+idna==3.20
+    # via requests
+invoke==3.0.3
+    # via paramiko
+jinja2==3.1.6
+    # via
+    #   -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+    #   junos-eznc
+    #   napalm
+junos-eznc==2.8.2
+    # via napalm
+lxml==6.1.3
+    # via
+    #   junos-eznc
+    #   napalm
+    #   ncclient
+markdown-it-py==4.2.0
+    # via rich
+markupsafe==3.0.4
+    # via jinja2
+mdurl==0.1.2
+    # via markdown-it-py
+napalm==5.2.0
+    # via -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+ncclient==0.7.0
+    # via
+    #   junos-eznc
+    #   napalm
+netaddr==1.3.0
+    # via
+    #   napalm
+    #   pyeapi
+netmiko==4.8.0
+    # via
+    #   -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+    #   napalm
+    #   nornir-netmiko
+netutils==1.19.2
+    # via napalm
+nornir==3.6.0
+    # via -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+nornir-netmiko==1.0.1
+    # via -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+ntc-templates==9.3.0
+    # via netmiko
+paramiko==5.0.0
+    # via
+    #   -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+    #   junos-eznc
+    #   napalm
+    #   ncclient
+    #   netmiko
+    #   scp
+pycparser==3.11
+    # via cffi
+pydantic==2.14.1
+    # via ttp-templates
+pydantic-core==2.50.1
+    # via pydantic
+pyeapi==1.0.4
+    # via napalm
+pygments==2.21.0
+    # via rich
+pynacl==1.6.2
+    # via paramiko
+pyparsing==3.3.3
+    # via junos-eznc
+pyserial==3.5
+    # via
+    #   junos-eznc
+    #   netmiko
+pyyaml==6.0.3
+    # via
+    #   -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+    #   junos-eznc
+    #   napalm
+    #   netmiko
+    #   yamlloader
+requests==2.34.2
+    # via napalm
+rich==15.0.0
+    # via
+    #   -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+    #   netmiko
+ruamel-yaml==0.19.1
+    # via nornir
+scp==0.16.2
+    # via
+    #   junos-eznc
+    #   netmiko
+six==1.17.0
+    # via
+    #   junos-eznc
+    #   transitions
+textfsm==2.1.0
+    # via
+    #   -r C:/Users/Public/fxwork/NetAutomate/_u.txt
+    #   napalm
+    #   netmiko
+    #   ntc-templates
+transitions==0.9.3
+    # via junos-eznc
+ttp==0.10.1
+    # via
+    #   napalm
+    #   ttp-templates
+ttp-templates==0.6.17
+    # via napalm
+typing-extensions==4.16.0
+    # via
+    #   napalm
+    #   pydantic
+    #   pydantic-core
+    #   typing-inspection
+typing-inspection==0.4.4
+    # via pydantic
+urllib3==2.8.0
+    # via requests
+yamlloader==1.6.0
+    # via junos-eznc
