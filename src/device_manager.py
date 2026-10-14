@@ -90,6 +90,5 @@ class DeviceManager:
             
         conn = self.connections[device_name]
         output = conn.send_config_set(config_commands)
-        logger.info(f"Pushed config to {device_name}:
-{output}")
+        logger.info(f"Pushed config to {device_name}:\n{output}")
         return output
